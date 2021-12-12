@@ -1,0 +1,12 @@
+# is_palindrom | Mihrab Miah
+# software developer
+# python basic
+
+def is_palindrome(word):
+    new_word = word.replace(" ", "")
+    reversed_word = word[::-1]
+    if (new_word.lower() == reversed_word.lower()):
+        return True
+    return False
+
+print(is_palindrome("pop"))
